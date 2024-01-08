@@ -1,5 +1,9 @@
 /* header part */
- .main-header {
+* {
+    margin: 0;
+}
+
+.main-header {
     text-align: center;
     font-family: 'Merriweather', serif;
     color: #FFF;
@@ -7,7 +11,7 @@
     font-weight: 900;
     padding: 0px 344px 200px 344px;
     margin-top: 0px;
-} 
+}
 
 .small-header {
     text-align: center;
@@ -19,7 +23,7 @@
     margin-bottom: 0px;
 }
 
-.container{
+.container {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     width: 1320px;
     height: 600px;
@@ -62,101 +66,290 @@
     display: block;
     margin: auto;
 }
+
 /* party section */
-.party{
+.party {
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 1320px;
     height: 600px;
-    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     border-radius: 14px;
     background-size: cover;
     margin-left: 300px;
     margin-top: 100px;
 }
-.banner-content{
+
+.banner-content {
     text-align: left;
     max-width: 600px;
     padding: 20px;
 }
-.party-header{
+
+.party-header {
     width: 642px;
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
-font-weight: 900;
-line-height: 88px; /* 137.5% */
-letter-spacing: 7.04px;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
 }
-.party-description{
+
+.party-description {
     color: #FFFFFFCC;
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-} 
-#btn1{
-    color: #FFF;
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-background-color: #F00;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
+
+#btn1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #F00;
+}
+
 /* portfolio */
-.portfolio{
+.portfolio {
     margin: 0px;
     width: 1320px;
-   
-   margin-left: 300px;
-   margin-top: 100px;
+
+    margin-left: 300px;
+    margin-top: 100px;
     align-items: center;
     justify-content: center;
 }
-.heading1{
+
+.heading1 {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 0px;
 }
-.main-port-heading{
+
+.main-port-heading {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-      font-weight: 900;
-      margin-top: 10px;
-      margin-bottom: 0;
-  
-}
-.portfolio-description{
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px; 
-margin-top: 10px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 0;
+
 }
 
-.port-img-sec1{
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 10px;
+}
+
+.port-img-sec1 {
     border-radius: 14px;
     margin-top: 50px;
 }
-.rec3{
+
+.rec3 {
     margin-right: 20px;
 }
-.rec5{
+
+.rec5 {
     margin-left: 20px;
 }
 
-.port-img-sec2{
+.port-img-sec2 {
     border-radius: 14px;
     margin-top: 20px;
 }
-.rec6{
+
+.rec6 {
     margin-right: 20px;
 }
-.rec8{
+
+.rec8 {
     margin-left: 20px;
+}
+
+/* subscribe newsletter */
+
+.subscribe {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 100px;
+    border: 1px solid black;
+    margin-left: 300px;
+
+}
+
+.mail-icon {
+    width: 150px;
+    height: 150px;
+    margin-left: 585px;
+    margin-right: 585px;
+    margin-top: 80px;
+
+}
+
+.sub-head {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-left: 404px;
+    padding-right: 404px;
+}
+
+.sub-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-left: 212px;
+    padding-right: 212px;
+}
+
+.sub-news-btn {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 230px;
+
+
+}
+
+.sub-mail {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 648px;
+    height: 72px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 50px 0 0 50px;
+
+}
+
+.sub-btn {
+    position: relative;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 210px;
+    height: 72px;
+    border: none;
+    outline: none;
+    left: -5px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+/* footer */
+.foot {
+    background-color: black;
+    padding: 20px;
+    width: 1864px;
+    height: 200px;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+
+}
+
+.foot-left {
+    padding-top: 120px;
+    text-align: left;
+    max-width: 50%;
+    padding-left: 300px;
+}
+
+.foot-right {
+    text-align: right;
+    padding-top: 120px;
+    max-width: 50%;
+    padding-right: 300px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.link-web {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.social {
+    background-color: black;
+    padding: 20px;
+    width: 1864px;
+    height: 300px;
+    text-align: center;
+
+}
+
+.s-icon {
+    width: 64px;
+    height: 64px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+hr {
+    width: 1320px;
+    Margin-left: 300px;
+
+}
+.final-div1{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+padding-left: 300px;
+}
+.final-div2{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+padding-right: 290px;
+}
+.final-div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
 }
