@@ -160,11 +160,19 @@
 
 .rec3 {
     margin-right: 20px;
-
+    transition: 1s;
+}
+.rec3:hover , .rec4:hover, .rec5:hover, .rec6:hover, .rec7:hover, .rec8:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.rec4{
+    transition: 1s;
 }
 
 .rec5 {
     margin-left: 20px;
+    transition: 1s;
 }
 
 .port-img-sec2 {
@@ -174,10 +182,15 @@
 
 .rec6 {
     margin-right: 20px;
+    transition: 1s;
+}
+.rec7{
+    transition: 1s;
 }
 
 .rec8 {
     margin-left: 20px;
+    transition: 1s;
 }
 
 /* subscribe newsletter */
@@ -535,22 +548,11 @@ hr {
     background-size: 1420px 220px , 450px auto ;
     border-radius: 16px;
 
-
-
-
 }
 
-/* .discount{
-    background-image: url('../resources/Rectangle\ 1.png');
-    background-position: top right;
-    background-repeat: no-repeat;
-    width: 429px;
-height: 433px;
-flex-shrink: 0;
-}
-    */
 
 .dis-img {
     padding-top: 100px;
-    padding-right: 900px;
+    padding-right: 400px;
 }
+
