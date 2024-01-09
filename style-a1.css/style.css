@@ -95,7 +95,6 @@
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
-    /* 137.5% */
     letter-spacing: 7.04px;
 }
 
@@ -113,6 +112,7 @@
     font-size: 20px;
     font-weight: 700;
     background-color: #F00;
+    margin-top: 30px;
 }
 
 /* portfolio */
@@ -160,6 +160,7 @@
 
 .rec3 {
     margin-right: 20px;
+
 }
 
 .rec5 {
@@ -187,7 +188,6 @@
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     margin-top: 100px;
-    border: 1px solid black;
     margin-left: 300px;
 
 }
@@ -334,22 +334,148 @@ hr {
     Margin-left: 300px;
 
 }
-.final-div1{
+
+.final-div1 {
     color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-padding-left: 300px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 300px;
 }
-.final-div2{
+
+.final-div2 {
     color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-padding-right: 290px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-right: 290px;
 }
-.final-div{
+
+.final-div {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
+}
+
+/* bonus part */
+.join-info {
+    width: 970px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    ;
+    margin-top: 100px;
+    margin-left: 300px;
+    border-radius: 15px;
+
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    padding-left: 380px;
+    padding-top: 150px;
+
+}
+
+.red {
+    color: #F00;
+}
+
+.place {
+    padding-left: 100px;
+    margin-bottom: 10px;
+}
+
+.date {
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+
+.red-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+
+
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    margin-left: 250px;
+    margin-top: 70px;
+
+}
+
+.coming-soon {
+    width: 1355px;
+    height: 500px;
+    margin-left: 300px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.new {
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 100px;
+
+}
+
+.coming {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.offer-description1 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-right: 10px;
+    margin-top: 15px;
+}
+
+.img-tarabati {
+    margin: 30px 70px 0px 100px;
+    border: 15px solid red;
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer-description2 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.y-2024 {
+    margin-top: 100px;
+    margin-right: 110px;
+    margin-left: 0px;
 }
